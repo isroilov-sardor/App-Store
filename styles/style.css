@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.head-up {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.head-up:hover {
+    transform: skew(-16deg);
+    transition: 0.5s;
+}
+
+.head-up-title {
+    color: rgba(219, 68, 68, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.head-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.head-down-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: 'Inter';
+    color:
+        rgba(0, 0, 0, 1);
+}
+
+.head-down-images a {
+    text-decoration: none;
+}
+
+.hed-d-img1:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.hed-dimg2:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+/* Choosing */
+.choose-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.choose1 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 55px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose1:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.choose-title a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.choose2 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 39px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose2:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.choose3 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 35px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose3:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.choose4 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 51px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose4:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.choose5 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 35px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose5:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.choose6 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    text-align: center;
+    padding: 24px 52px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.choose6:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.hr-choosing {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* Selling */
+.sell-container {}
+
+.sell-up {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.sell-up-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color:
+        rgba(219, 68, 68, 1);
+}
+
+.sell-up:hover {
+    transform: skew(-16deg);
+    transition: 0.5s;
+}
+
+.sell-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sell-down-title {
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    color:
+        rgba(0, 0, 0, 1);
+    transition: 0.5s;
+}
+
+.sell-down-title:hover {
+    color:
+        rgba(219, 68, 68, 1);
+    text-shadow: 2px 3px 4px gray;
+    transition: 0.5s;
+}
+
+.sell-down-butt {
+    font-size: 20px;
+    background-color: rgba(219, 68, 68, 1);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding:
+        16px 48px 16px 48px;
+    transition: 0.5s;
+}
+
+.sell-down-butt:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 2px 3px 4px gray;
+    transition: 0.5s;
+}
+
+/* Best-Sell */
+.best-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.best-sell-things {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 8px;
+}
+
+.best-sell-costs {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.best-sell-cost1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(219, 68, 68, 1);
+}
+
+.best-sell-cost2 {
+    opacity:
+        50%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: line-through;
+}
+
+.best-sell-imgs:hover {
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.best-sell-imgs {
+    transition: 1.5s;
+}
+
+/* End */
+.end {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.end-container {
+    display: flex;
+    align-items: center;
+}
+
+.end-rightth {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.end-right1th {
+    border-radius: 50px;
+    background-color: white;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.end-right-desc a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color:
+        rgba(0, 255, 102, 1);
+    text-decoration: none;
+    transition: 1s;
+}
+
+.end-right-desc {
+    transition: 1s;
+    margin-bottom: 32px;
+}
+
+.end-right-desc a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.end-right-title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    font-family: 'Inter';
+    color: rgba(250, 250, 250, 1);
+    margin-bottom: 32px;
+}
+
+.end-right-butt {
+    font-size: 20px;
+    padding: 16px 48px;
+    background-color: rgba(0, 255, 102, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.end-right-butt:hover {
+    background-color: white;
+    color: rgba(0, 255, 102, 1);
+    transition: 1.5s;
+}
+
+.end-left-img {
+    transition: 2.5s;
+}
+
+.end-left-img:hover {
+    transform: translateX(30px);
+    transition: 2.5s;
+}
